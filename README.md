@@ -3,7 +3,7 @@
   absorption bounding box examples 1#  
   ![1](https://user-images.githubusercontent.com/75716601/106891718-712f1680-672e-11eb-8f50-94b91d920ee3.jpg)
                           examples 2#  
-  ![그림2](https://user-images.githubusercontent.com/75716601/106891226-c3bc0300-672d-11eb-8945-8fdcb913019a.jpg)
+  ![2](https://user-images.githubusercontent.com/75716601/106891772-86a44080-672e-11eb-91c6-f007652cc494.jpg)
   
 ### Figure
-![그림4](https://user-images.githubusercontent.com/75716601/106891323-dc2c1d80-672d-11eb-852e-073f86741ab4.jpg)
+![3](https://user-images.githubusercontent.com/75716601/106891773-886e0400-672e-11eb-9fb4-7778a8786c4d.jpg)
