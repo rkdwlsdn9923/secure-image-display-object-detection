@@ -6,15 +6,15 @@
   ![2](https://user-images.githubusercontent.com/75716601/106891772-86a44080-672e-11eb-91c6-f007652cc494.jpg)
 
 ### Absorption Bounding Box Algorithm
-    1: Input α by Eq.(2)
-    2: Output α`
-    3: step = 0
-    4: while (true)
-    5:     if (step is equal to the length of α) return
-    6:     target = α[step]
-    7:     for i = 0 to the length of α
-    8:         if (target ≠ α[i])
-    9:             D_a = target, D_b = α[i]
+     1: Input α by Eq.(2)
+     2: Output α`
+     3: step = 0
+     4: while (true)
+     5:     if (step is equal to the length of α) return
+     6:     target = α[step]
+     7:     for i = 0 to the length of α
+     8:         if (target ≠ α[i])
+     9:             D_a = target, D_b = α[i]
     10:             (x_1, y_1) = max value each top-left of D_a and D_b
     11:             (x_2, y_2) = min value each bottom-right of D_a and D_b
     12:             make width, height on coordinate (x_1, y_1), (x_2, y_2)
