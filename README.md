@@ -1,11 +1,11 @@
 # Secure Image Display on Object Detection
-### Capture Protection bar-based Secure Image Display using Object Detection
-  absorption bounding box examples 1#  
+### Object-wise Secure Image Display Method for Screen Capture Protection
+  Protection Zone examples 1#  
   ![1](https://user-images.githubusercontent.com/75716601/106891718-712f1680-672e-11eb-8f50-94b91d920ee3.jpg)
                           examples 2#  
   ![2](https://user-images.githubusercontent.com/75716601/106891772-86a44080-672e-11eb-91c6-f007652cc494.jpg)
 
-### Absorption Bounding Box Algorithm
+### Absorption bounding box Algorithm
      1: Input α by Eq.(2)
      2: Output α`
      3: step = 0
@@ -18,7 +18,7 @@
     10:             (x_1, y_1) = max value each top-left of D_a and D_b
     11:             (x_2, y_2) = min value each bottom-right of D_a and D_b
     12:             make width, height on coordinate (x_1, y_1), (x_2, y_2)
-    13:             if not (width <= 0) or (height <= 0)
+    13:             if not (width ≤ 0) or (height ≤ 0)
     14:                 The D_n` is initialized
     15:                 top-left (x, y) of D_n` = min value each top-left of D_a and D_b
     16:                 bottom-right (x, y) of D_n` = max value each bottom-right of D_a and D_b
