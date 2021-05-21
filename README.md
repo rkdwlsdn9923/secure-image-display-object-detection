@@ -27,7 +27,8 @@
     19:                 step = step – 1
     20:                 break
     21:     step = step + 1
-### Absorption bounding box Algorithm
+    
+### Protection Zone Localization Algorithm (recurrsive)
     Input 𝛼 by Eq.(3) 𝑏1 ~ 𝑏𝑛  
     Output 𝛼 by 𝑝𝑓1 ~ 𝑝𝑓𝑛  
     
