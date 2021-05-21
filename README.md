@@ -27,6 +27,25 @@
     19:                 step = step – 1
     20:                 break
     21:     step = step + 1
-
+### Absorption bounding box Algorithm
+    Input 𝛼 by Eq.(3) 𝑏1 ~ 𝑏𝑛  
+    Output 𝛼 by 𝑝𝑓1 ~ 𝑝𝑓𝑛  
+    
+    function localization (𝛼, count)
+        if (count reaches the end of 𝛼) return 𝛽
+        create temporary protection zone 𝛽 as initial list of 𝛼`
+        create 𝑝𝑐𝑜𝑢𝑛𝑡 in 𝛽 and copy 𝛼 [count]
+        
+        for (i increase from count + 1 to the end of 𝛼)
+            if (overlapped with 𝑝𝑐𝑜𝑢𝑛𝑡 and 𝛼 [i])
+                update 𝑝𝑐𝑜𝑢𝑛𝑡 by Eq.(1)
+                𝛼 [i] is deleted
+        count is incremented by 1
+        localization (𝛼, count)
+        
+    while (overlapping)
+        if (no more overlapping) return 𝛼
+        localization(𝛼, count) updates 𝛼
+    
 ### Figure
   ![3](https://user-images.githubusercontent.com/75716601/106891773-886e0400-672e-11eb-9fb4-7778a8786c4d.jpg)
