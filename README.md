@@ -1,5 +1,6 @@
 # Secure Image Display on Object Detection
-### Object-wise Secure Image Display Method for Screen Capture Protection
+### Object-wise Secure Image Display Method for Screen Capture Protection (Scopus / IEIE Transactions on Smart Processing and Computing)
+
   Protection Zone examples 1#  
   ![1](https://user-images.githubusercontent.com/75716601/106891718-712f1680-672e-11eb-8f50-94b91d920ee3.jpg)
                           examples 2#  
